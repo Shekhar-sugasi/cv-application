@@ -1,0 +1,21 @@
+:root {
+  --btn-bg-color: #2980b9;
+  --text-color: #fff;
+  --btn-padding: 10px;
+  --btn-border-radius: 20px;
+}
+
+.buttons {
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn {
+  background-color: var(--btn-bg-color);
+  color: var(--text-color);
+  padding: var(--btn-padding);
+  border-radius: var(--btn-border-radius);
+  border: 1px solid var(--btn-bg-color);
+}

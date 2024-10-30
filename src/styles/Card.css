@@ -1,0 +1,29 @@
+:root {
+  --card-bg-color: #fff;
+  --text-color: #4ca1af;
+}
+
+.card {
+  background: var(--card-bg-color);
+  border-radius: 20px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  min-width: 186px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #8d094b;
+  font-size: 24px;
+}
+
+.card-entry {
+  font-size: 20px;
+  cursor: pointer;
+
+  &:hover {
+    color: #8d094b;
+  }
+}

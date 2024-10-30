@@ -1,0 +1,43 @@
+:root {
+  --main-bg-color: #e7e6e6;
+  --card-bg-color: #ffffff;
+  --card-padding: 20px 0;
+  --card-border-radius: 20px;
+  --bg-color: #8d094b;
+  --text-color: #4caf50;
+}
+
+* {
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  padding: 60px;
+  background-color: var(--main-bg-color);
+  color: #000;
+}
+
+.cv-application {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.cv {
+  background-color: var(--card-bg-color);
+  border-radius: var(--card-border-radius);
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: 70px;
+}
+
+.forms {
+  width: 30vw;
+}

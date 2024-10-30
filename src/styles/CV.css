@@ -1,0 +1,47 @@
+.title {
+  font-size: 1.75rem; /* 28px */
+  text-align: center;
+  color: var(--bg-color);
+  background-color: var(--text-color);
+  padding: 0.9375rem 0; /* 15px */
+}
+
+.entry {
+  display: flex;
+  padding: 1.25rem 1.875rem 0; /* 20px 30px 0 */
+  gap: 3.125rem; /* 50px */
+  align-items: center;
+}
+
+.entry:not(:last-child) {
+  padding-bottom: 1.25rem; /* 20px */
+}
+
+.date,
+.location,
+.degree,
+.position {
+  font-size: 1.25rem; /* 20px */
+}
+
+.position {
+  margin: 0.625rem 0; /* 10px */
+}
+
+.description {
+  font-size: 1rem; /* 16px */
+  margin: 0.625rem 0 1.875rem; /* 10px 0 30px */
+}
+
+.school,
+.company {
+  font-size: 1.5rem; /* 24px */
+}
+
+.company:not(:first-child) {
+  margin-top: 1.25rem; /* 20px */
+}
+
+.right {
+  max-width: 30rem; /* 480px */
+}
