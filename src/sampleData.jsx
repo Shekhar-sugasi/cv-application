@@ -22,7 +22,7 @@ let sampleData = {
       startDate: "07/2017",
       endDate: "05/2020",
       degree: "Bachelor of Science in Mathematics",
-      location: "New Delhi, Delhi",
+      location: "Mumbai, Maharashtra",
       id: uuidv4(),
     },
     {

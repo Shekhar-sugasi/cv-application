@@ -30,8 +30,8 @@
 .textarea-input {
   width: 88%;
   max-width: 384px;
-  overflow: hidden; /* Скрывает скроллбар */
-  resize: none; /* Запрещает изменение размера */
-  scrollbar-width: none; /* Скрывает скроллбар в Firefox */
-  -ms-overflow-style: none; /* Скрывает скроллбар в IE и Edge */
+  overflow: hidden;
+  resize: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }

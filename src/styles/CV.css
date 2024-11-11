@@ -1,47 +1,47 @@
 .title {
-  font-size: 1.75rem; /* 28px */
+  font-size: 1.75rem;
   text-align: center;
   color: var(--bg-color);
   background-color: var(--text-color);
-  padding: 0.9375rem 0; /* 15px */
+  padding: 0.9375rem 0;
 }
 
 .entry {
   display: flex;
-  padding: 1.25rem 1.875rem 0; /* 20px 30px 0 */
-  gap: 3.125rem; /* 50px */
+  padding: 1.25rem 1.875rem 0;
+  gap: 3.125rem;
   align-items: center;
 }
 
 .entry:not(:last-child) {
-  padding-bottom: 1.25rem; /* 20px */
+  padding-bottom: 1.25rem;
 }
 
 .date,
 .location,
 .degree,
 .position {
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.25rem;
 }
 
 .position {
-  margin: 0.625rem 0; /* 10px */
+  margin: 0.625rem 0;
 }
 
 .description {
-  font-size: 1rem; /* 16px */
-  margin: 0.625rem 0 1.875rem; /* 10px 0 30px */
+  font-size: 1rem;
+  margin: 0.625rem 0 1.875rem;
 }
 
 .school,
 .company {
-  font-size: 1.5rem; /* 24px */
+  font-size: 1.5rem;
 }
 
 .company:not(:first-child) {
-  margin-top: 1.25rem; /* 20px */
+  margin-top: 1.25rem;
 }
 
 .right {
-  max-width: 30rem; /* 480px */
+  max-width: 30rem;
 }
